@@ -1,0 +1,1 @@
+"use strict";discordWidget.init({serverId:"364473157312315394",title:"Devvit.io",join:!0,alphabetical:!0,theme:"dark",hideChannels:!0,showAllUsers:!0,allUsersDefaultState:!1}),discordWidget.render();
