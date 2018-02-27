@@ -1,1 +1,22 @@
-"use strict";discordWidget.init({serverId:"364473157312315394",title:"Devvit.io",join:!0,alphabetical:!0,theme:"dark",hideChannels:!0,showAllUsers:!0,allUsersDefaultState:!1}),discordWidget.render();
+// (function (window, document) {
+
+
+
+  
+// let path = document.querySelector("svg path");
+// let total_length = path.getTotalLength();
+
+// })(window, document);
+
+
+      discordWidget.init({
+          serverId: '364473157312315394',
+          title: 'Devvit.io',
+          join: true,
+          alphabetical: true,
+          theme: 'dark',
+          hideChannels: true,
+          showAllUsers: true,
+          allUsersDefaultState: false
+      });
+      discordWidget.render();
