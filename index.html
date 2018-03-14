@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Template</title>
   <link href="img/favicon.ico" rel="icon">
-  <script type="text/javascript" src="https://tor020.github.io/livejs/live.js"></script>
+  <!-- <script type="text/javascript" src="https://tor020.github.io/livejs/live.js"></script> -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css  ">
   <link rel="stylesheet" href="css/style.css">
@@ -76,19 +76,23 @@ ie: you design for the content on the page
     <div class="purpose">  <!-- BEGIN Purpose Section -->
 
 
-      <h1 class="brand">Who is Devvit for?</h1>
+      <h1> Who is Devvit for?</h1>
       
-<div ="checkTest">
-  
-        <label>
-          <input type="checkbox"> I am able and willing to behave in a professional manner
-        </label>
-  
-        <label>
-          <input type="checkbox"> I am a Developer
-        </label>
+        <div>
+         <label>
+            <input id='cb1' type="checkbox"> 
+          I am a Developer
+          </label>
+        </div>
 
-</div>  
+        <div >
+         <label>  
+           <input id='cb2' type="checkbox">
+          I am able and willing to conduct myself in a professional manner
+          </label>
+        </div>
+
+      
 
      
 
@@ -97,7 +101,7 @@ ie: you design for the content on the page
     
       
     <div class="getInvolved"> <!-- BEGIN Get Involved - Discord Section -->
-
+  
 
       <object type="image/svg+xml" data="img/getInvolved.svg">Your browser does not support SVGs</object>
 
@@ -113,44 +117,58 @@ ie: you design for the content on the page
       
 
       <div class="widget">
-        <div class="discord-widget"></div>
+        <div class="container">
+         <div class="discord-widget"></div>
+        </div>
       </div>
 
     </div> <!-- END Get Involved - Discord Section -->
 
 
+<!-- #1d1b1b -->
+<!-- https://gradients.jacob-foster.com/ -->
 
     <div class="projects"> <!-- BEGIN Projects Section -->
 
         <h1>Community Projects</h1>
+        <div class="projectsContainer">
         <!--   CMS   -->
-        <div class="">
-          <p>CMS</p>
+        <div class="item1">
+          <h2>CMS</h2>
           <p>A basic CMS mixed with a blogging software.</p>
-          <a class="bg-purple" href="https://github.com/DevvitIO/CMS"></a>
+          <a href="https://github.com/DevvitIO/CMS">Link To Github Repo</a>
         </div>
         
         <!--   ReallyAnnoyingDirectory   -->
 
-        <div class="">
-          <p>ReallyAnnoyingDirectory</p>
+        <div class="item2">
+          <h2>ReallyAnnoyingDirectory</h2>
           <p>Open collab for a directory of really 'awful' front-end pages.</p>
-          <a class="bg-green" href="https://github.com/DevvitIO/ReallyAnnoyingDirectory"></a>
+          <a href="https://github.com/DevvitIO/ReallyAnnoyingDirectory">Link To Github Repo</a>
         </div>
         
         <!--   Lanflix   -->
-
-        <div class="">
-          <p>Lanflix</p>
+      
+        <div class="item3">
+          <h2>Lanflix</h2>
           <p>Netflix for your LAN</p>
-          <a class="bg-blue" href="https://github.com/DevvitIO/Lanflix"></a>
-              
+          <a href="https://github.com/DevvitIO/Lanflix">Link To Github Repo</a>
         </div>
+
+        <!-- Devvit Bot -->
+        <div class="item4">
+          <h2>Devvit Discord Bot</h2>
+          <p>Custom Discord Bot With Extendable API</p>
+          <a href="https://github.com/DevvitIO/The-One-True-Dynobot">Link To Github Repo</a>
+        </div>
+
 
 
 
 
     </div>      <!-- END Projects Section -->
+</div>   <!-- END Projects Container -->
+
 
   </div> <!-- END Grid Container -->
 
